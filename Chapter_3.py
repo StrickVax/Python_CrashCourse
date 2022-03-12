@@ -4,14 +4,14 @@ print(a)
 
 # Division
 b = 52 / 3
-print(round(b,2))
+print(round(b, 2))
 
 # Floor division
 b = 51 // 4
-print(round(b,2))
+print(round(b, 2))
 
 # Square
-print(5 ** 2)
+print(5**2)
 
 # Hmm
 width = 50
@@ -19,10 +19,13 @@ height = 30
 area = width * height
 print(area)
 
-# Printing 
+# Printing
 s = "Hey\nBob"
-print(s,"kkk")
+print(s, "kkk")
 
 # r for raaaw
 print(r"c:\\hm")
 print("\n\nc:\nm")
+
+# A
+print(s)
