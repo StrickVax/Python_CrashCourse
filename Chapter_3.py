@@ -18,3 +18,11 @@ width = 50
 height = 30
 area = width * height
 print(area)
+
+# Printing 
+s = "Hey\nBob"
+print(s,"kkk")
+
+# r for raaaw
+print(r"c:\\hm")
+print("\n\nc:\nm")
