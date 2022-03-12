@@ -1,7 +1,8 @@
 # This app can take multiple numbers and output their calculations
 
-x = float(input("First Number: "))
-y = float(input("Second Number: "))
+x = float(input())
+o = str(input())
+y = float(input())
 
 
 def add(x, y):
@@ -24,4 +25,19 @@ def pow(x, y):
     return x**y
 
 
-print(x, " + ", y, " = ", add(x, y))
+# TO-DO: Take multiple entries
+def operation(f):
+    match f:
+        case ("+"):
+            print(x, "+", y, "=", add(x, y))
+        case ("-"):
+            print(x, "-", y, "=", subtract(x, y))
+        case ("*"):
+            print(x, "*", y, "=", multiply(x, y))
+        case ("/"):
+            print(x, "/", y, "=", divide(x, y))
+        case ("^"):
+            print(x, "^", y, "=", pow(x, y))
+
+
+operation(o)
